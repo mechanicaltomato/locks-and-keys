@@ -6,7 +6,7 @@
     "scenes": [
         {
             "name": "BEDROOM",
-            "backgroundId": "09d81c8c-6fee-4932-8178-5aec1e3f825b",
+            "backgroundId": "2fa2aefe-c12e-48c0-994c-5a998dcfa385",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -412,11 +412,11 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "f481995c-4fde-4d5d-80d4-efea6d7499ca"
+            "playerSpriteSheetId": "2fa0d3d2-fa40-453b-90c3-4f190f583010"
         },
         {
             "name": "LIVINGROOM",
-            "backgroundId": "a832c77b-aa53-415a-bccc-9a9942c258c0",
+            "backgroundId": "d897943f-4717-4b00-bc29-0651ca661602",
             "width": 24,
             "height": 20,
             "type": "TOPDOWN",
@@ -1827,6 +1827,24 @@
             "imageHeight": 480,
             "filename": "src\\8bit-canari\\PixelPackTOPDOWN8BIT.png",
             "tileColors": []
+        },
+        {
+            "id": "2fa2aefe-c12e-48c0-994c-5a998dcfa385",
+            "name": "src\\gauntlets\\BEDROOM.png",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "src\\gauntlets\\png\\BEDROOM.png"
+        },
+        {
+            "id": "d897943f-4717-4b00-bc29-0651ca661602",
+            "name": "src\\gauntlets\\LIVINGROOM.png",
+            "width": 24,
+            "height": 20,
+            "imageWidth": 192,
+            "imageHeight": 160,
+            "filename": "src\\gauntlets\\png\\LIVINGROOM.png"
         }
     ],
     "spriteSheets": [
@@ -12676,8 +12694,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1946.6666259765625,
-        "worldScrollY": 310,
+        "worldScrollX": 2070.833251953125,
+        "worldScrollY": 290,
         "zoom": 250,
         "customColorsEnabled": true,
         "sgbEnabled": true,
@@ -12706,9 +12724,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            546,
-            135,
-            135
+            386,
+            95,
+            95
         ],
         "showNavigator": true,
         "defaultFontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
