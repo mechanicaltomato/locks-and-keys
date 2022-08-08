@@ -412,7 +412,7 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "2fa0d3d2-fa40-453b-90c3-4f190f583010"
+            "playerSpriteSheetId": "f07e109d-5bf1-46c2-867b-978c27a3516a"
         },
         {
             "name": "LIVINGROOM",
@@ -11831,8 +11831,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1707,
-        "worldScrollY": 348,
+        "worldScrollX": 1760,
+        "worldScrollY": 162,
         "zoom": 250,
         "customColorsEnabled": true,
         "sgbEnabled": true,
@@ -11861,9 +11861,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            509,
+            205,
             125,
-            125
+            429
         ],
         "showNavigator": true,
         "defaultFontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
