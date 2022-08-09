@@ -130,8 +130,8 @@
                 0,
                 0,
                 0,
-                0,
-                0,
+                15,
+                15,
                 0,
                 0,
                 15,
@@ -150,28 +150,8 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
                 0,
                 0,
                 15,
@@ -218,6 +198,26 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -262,25 +262,18 @@
                 0,
                 0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
                 15,
                 15,
                 0,
                 0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -291,9 +284,16 @@
                 15,
                 15,
                 15,
+                0,
+                0,
                 15,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -408,11 +408,188 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "b"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_ACTOR_DIRECTION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "direction": "right",
+                                    "__collapseElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_LAUNCH_PROJECTILE",
+                                            "args": {
+                                                "spriteSheetId": "78e4e887-6baa-4ffb-a210-b3f73ed974a9",
+                                                "spriteStateId": "",
+                                                "actorId": "player",
+                                                "x": 0,
+                                                "y": 0,
+                                                "otherActorId": "$self$",
+                                                "direction": "right",
+                                                "angle": 0,
+                                                "angleVariable": "0",
+                                                "directionType": "direction",
+                                                "initialOffset": 0,
+                                                "speed": 2,
+                                                "animSpeed": 15,
+                                                "lifeTime": 1,
+                                                "collisionGroup": "3",
+                                                "collisionMask": [
+                                                    "1"
+                                                ],
+                                                "__collapse": true
+                                            },
+                                            "id": "7b219d6c-2497-4f84-b91f-a130517f7451"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "d506c5db-f581-4aa2-8a06-41bc419a36d5"
+                            },
+                            {
+                                "command": "EVENT_IF_ACTOR_DIRECTION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "direction": "left",
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_LAUNCH_PROJECTILE",
+                                            "args": {
+                                                "spriteSheetId": "78e4e887-6baa-4ffb-a210-b3f73ed974a9",
+                                                "spriteStateId": "",
+                                                "actorId": "player",
+                                                "x": 0,
+                                                "y": 0,
+                                                "otherActorId": "$self$",
+                                                "direction": "left",
+                                                "angle": 0,
+                                                "angleVariable": "0",
+                                                "directionType": "direction",
+                                                "initialOffset": 0,
+                                                "speed": 2,
+                                                "animSpeed": 15,
+                                                "lifeTime": 1,
+                                                "collisionGroup": "3",
+                                                "collisionMask": [
+                                                    "1"
+                                                ],
+                                                "__collapse": true
+                                            },
+                                            "id": "6c869f53-9fec-4d36-8b02-f0041f4128df"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_ACTOR_DIRECTION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "direction": "up",
+                                                "__collapseElse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_LAUNCH_PROJECTILE",
+                                                        "args": {
+                                                            "spriteSheetId": "78e4e887-6baa-4ffb-a210-b3f73ed974a9",
+                                                            "spriteStateId": "",
+                                                            "actorId": "player",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "otherActorId": "$self$",
+                                                            "direction": "up",
+                                                            "angle": 0,
+                                                            "angleVariable": "0",
+                                                            "directionType": "direction",
+                                                            "initialOffset": 0,
+                                                            "speed": 2,
+                                                            "animSpeed": 15,
+                                                            "lifeTime": 1,
+                                                            "collisionGroup": "3",
+                                                            "collisionMask": [
+                                                                "1"
+                                                            ],
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "44493154-c719-430f-8c9e-300be49f357a"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_DIRECTION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "direction": "down",
+                                                            "__collapseElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_LAUNCH_PROJECTILE",
+                                                                    "args": {
+                                                                        "spriteSheetId": "78e4e887-6baa-4ffb-a210-b3f73ed974a9",
+                                                                        "spriteStateId": "",
+                                                                        "actorId": "player",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "otherActorId": "$self$",
+                                                                        "direction": "down",
+                                                                        "angle": 0,
+                                                                        "angleVariable": "0",
+                                                                        "directionType": "direction",
+                                                                        "initialOffset": 0,
+                                                                        "speed": 2,
+                                                                        "animSpeed": 15,
+                                                                        "lifeTime": 1,
+                                                                        "collisionGroup": "3",
+                                                                        "collisionMask": [
+                                                                            "1"
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "b8d901c1-db8e-43bb-bbce-3c409ec29e88"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "1af0e9b3-85ff-44a8-9975-4a2447fdeafc"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "6a855923-cf03-4a11-8af5-b0131e38f82f"
+                                        }
+                                    ]
+                                },
+                                "id": "30775145-b9cd-4b48-9ef8-3b0dd5f39a42"
+                            }
+                        ]
+                    },
+                    "id": "9faca54f-4169-43bd-aa73-ece179500443"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "d78df56f-d68c-4a79-866b-01895515e084"
+            "playerSpriteSheetId": "d78df56f-d68c-4a79-866b-01895515e084",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "LIVINGROOM",
@@ -538,8 +715,8 @@
                 0,
                 0,
                 0,
-                0,
-                0,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -644,30 +821,6 @@
                 15,
                 15,
                 15,
-                0,
-                0,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 0,
                 15,
@@ -724,10 +877,34 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -3148,7 +3325,7 @@
             ],
             "autoFadeSpeed": 1,
             "id": "a9ce17ac-faef-4bf3-90bb-c3f12637b257",
-            "x": 1420.8,
+            "x": 1380.8,
             "y": 30,
             "actors": [],
             "triggers": [
@@ -5461,94 +5638,85 @@
             "tileColors": []
         },
         {
-            "id": "d0d03757-209d-4b69-a494-791e43364012",
-            "name": "wip/8bit-canari/PixelPackTOPDOWN8BIT",
+            "id": "febc1013-478e-42ca-b8bc-82f729f064cf",
+            "name": "wip\\8bit-canari\\PixelPackTOPDOWN8BIT",
             "width": 32,
             "height": 60,
             "imageWidth": 256,
             "imageHeight": 480,
-            "filename": "wip/8bit-canari/PixelPackTOPDOWN8BIT.png",
-            "tileColors": []
+            "filename": "wip\\8bit-canari\\PixelPackTOPDOWN8BIT.png"
         },
         {
-            "id": "19cc8e44-f374-448d-b5fc-da06474222e9",
-            "name": "wip/gauntlets/BEDROOM.png",
+            "id": "bc287809-9d24-4b18-8608-08dd2c6d4913",
+            "name": "wip\\gauntlets\\BEDROOM.png",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "wip/gauntlets/png/BEDROOM.png",
-            "tileColors": []
+            "filename": "wip\\gauntlets\\png\\BEDROOM.png"
         },
         {
-            "id": "ed801694-c01f-4ba8-820a-00fc7d66e63c",
-            "name": "wip/gauntlets/CAVERN_1.png",
+            "id": "a6833d86-01d0-4bf4-9e1d-c05652357ca5",
+            "name": "wip\\gauntlets\\CAVERN_1.png",
             "width": 20,
             "height": 24,
             "imageWidth": 160,
             "imageHeight": 192,
-            "filename": "wip/gauntlets/png/CAVERN_1.png",
-            "tileColors": []
+            "filename": "wip\\gauntlets\\png\\CAVERN_1.png"
         },
         {
-            "id": "341dbdd4-6250-4eb6-8531-1de8bdf5db16",
-            "name": "wip/gauntlets/CAVERN_2.png",
+            "id": "fa3841d2-b47f-4468-8b0b-57c4434e954b",
+            "name": "wip\\gauntlets\\CAVERN_2.png",
             "width": 24,
             "height": 18,
             "imageWidth": 192,
             "imageHeight": 144,
-            "filename": "wip/gauntlets/png/CAVERN_2.png",
-            "tileColors": []
+            "filename": "wip\\gauntlets\\png\\CAVERN_2.png"
         },
         {
-            "id": "4891419b-fd1d-435a-b3f4-d6e3743b646e",
-            "name": "wip/gauntlets/CITY_1.png",
+            "id": "461f8588-ab3f-4e5c-b5f8-93bd4ac1d8e0",
+            "name": "wip\\gauntlets\\CITY_1.png",
             "width": 32,
             "height": 24,
             "imageWidth": 256,
             "imageHeight": 192,
-            "filename": "wip/gauntlets/png/CITY_1.png",
-            "tileColors": []
+            "filename": "wip\\gauntlets\\png\\CITY_1.png"
         },
         {
-            "id": "87a4b792-3840-46c6-816c-aac45aaaf4e8",
-            "name": "wip/gauntlets/CITY_2.png",
+            "id": "eb07153f-ed8a-4ed7-9ded-8edacb120dcc",
+            "name": "wip\\gauntlets\\CITY_2.png",
             "width": 32,
             "height": 24,
             "imageWidth": 256,
             "imageHeight": 192,
-            "filename": "wip/gauntlets/png/CITY_2.png",
-            "tileColors": []
+            "filename": "wip\\gauntlets\\png\\CITY_2.png"
         },
         {
-            "id": "af6b66bf-ecf0-4b43-8669-29e015ee75ba",
-            "name": "wip/gauntlets/LIVINGROOM.png",
+            "id": "e6a13181-2e95-4bcd-b577-e746742f9563",
+            "name": "wip\\gauntlets\\LIVINGROOM.png",
             "width": 24,
             "height": 20,
             "imageWidth": 192,
             "imageHeight": 160,
-            "filename": "wip/gauntlets/png/LIVINGROOM.png",
-            "tileColors": []
+            "filename": "wip\\gauntlets\\png\\LIVINGROOM.png"
         },
         {
-            "id": "1c702dcb-778f-4f6c-8080-3cea4e52e796",
-            "name": "wip/gauntlets/OUTSIDE_1.png",
+            "id": "defc1091-1c6a-49d9-8e48-e80d7c048d63",
+            "name": "wip\\gauntlets\\OUTSIDE_1.png",
             "width": 32,
             "height": 24,
             "imageWidth": 256,
             "imageHeight": 192,
-            "filename": "wip/gauntlets/png/OUTSIDE_1.png",
-            "tileColors": []
+            "filename": "wip\\gauntlets\\png\\OUTSIDE_1.png"
         },
         {
-            "id": "0730b9c0-08b0-4145-b624-42abf240ab22",
-            "name": "wip/gauntlets/OUTSIDE_2.png",
+            "id": "25db7786-69dd-4fbe-824e-d72379f7b2ff",
+            "name": "wip\\gauntlets\\OUTSIDE_2.png",
             "width": 32,
             "height": 24,
             "imageWidth": 256,
             "imageHeight": 192,
-            "filename": "wip/gauntlets/png/OUTSIDE_2.png",
-            "tileColors": []
+            "filename": "wip\\gauntlets\\png\\OUTSIDE_2.png"
         }
     ],
     "spriteSheets": [
@@ -7342,6 +7510,133 @@
             "boundsWidth": 16,
             "boundsHeight": 16,
             "animSpeed": 15
+        },
+        {
+            "id": "78e4e887-6baa-4ffb-a210-b3f73ed974a9",
+            "name": "stone",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "stone.png",
+            "checksum": "5d7d5476ec483c078e4491c03215bdc8f9c2aaaa",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "023f51ea-30a1-4c0b-a6d7-115b808f0cee",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "211c4f5d-8c9d-455b-b39f-b427ee5dee5c",
+                            "frames": [
+                                {
+                                    "id": "26162ed3-4adb-428c-b07a-0fb9f5042a01",
+                                    "tiles": [
+                                        {
+                                            "id": "f77e4462-27cb-4406-b43c-8097d5f9e53e",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "8cc4f5c0-a0f9-435e-97ef-fb9e918f202e",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6bef5087-58e1-4c81-8563-76bb88ddb50c",
+                            "frames": [
+                                {
+                                    "id": "4135fe4d-89f1-4225-b7f5-be2222984333",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0d741c52-e816-496b-8e2f-d6c7f1385e3a",
+                            "frames": [
+                                {
+                                    "id": "0d486099-013e-4302-8ae7-b21fb62e6bc6",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5fcfe205-6636-444f-b174-39eac8dda89f",
+                            "frames": [
+                                {
+                                    "id": "bcffc355-375a-49bd-b3fe-1eb28f9b8132",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "619086df-6ab0-44cd-9221-7e04e77b4cff",
+                            "frames": [
+                                {
+                                    "id": "579638d5-a88d-4308-9128-29226201dfd0",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c994ee16-f035-4e14-bb36-a7638fb7034b",
+                            "frames": [
+                                {
+                                    "id": "9ebcc843-1b89-41d7-8210-f550261a8439",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "bb61b92a-c5b9-463f-b355-23038f6e773f",
+                            "frames": [
+                                {
+                                    "id": "e7555253-6264-4dd0-9dd8-5056738f6a08",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3ec9106e-8ac2-4a59-b9c5-2d66b5328078",
+                            "frames": [
+                                {
+                                    "id": "d2a65eef-a508-4490-9b06-2bd3ae1645a6",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 1,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
         }
     ],
     "palettes": [
@@ -7492,7 +7787,196 @@
             ]
         }
     ],
-    "customEvents": [],
+    "customEvents": [
+        {
+            "id": "e6aa72b8-32a9-4c4c-90c6-1c720419a8c1",
+            "name": "Sword",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_ACTOR_DIRECTION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "direction": "right",
+                                    "__collapseElse": false,
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_LAUNCH_PROJECTILE",
+                                            "args": {
+                                                "spriteSheetId": "78e4e887-6baa-4ffb-a210-b3f73ed974a9",
+                                                "spriteStateId": "",
+                                                "actorId": "player",
+                                                "x": 0,
+                                                "y": 0,
+                                                "otherActorId": "$self$",
+                                                "direction": "right",
+                                                "angle": 0,
+                                                "angleVariable": "0",
+                                                "directionType": "direction",
+                                                "initialOffset": 0,
+                                                "speed": 2,
+                                                "animSpeed": 15,
+                                                "lifeTime": 1,
+                                                "collisionGroup": "3",
+                                                "collisionMask": [
+                                                    "1"
+                                                ],
+                                                "__collapse": true
+                                            },
+                                            "id": "5d86b768-a99d-421b-8664-692677197032"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_ACTOR_DIRECTION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "direction": "up",
+                                                "__collapseElse": false,
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_LAUNCH_PROJECTILE",
+                                                        "args": {
+                                                            "spriteSheetId": "78e4e887-6baa-4ffb-a210-b3f73ed974a9",
+                                                            "spriteStateId": "",
+                                                            "actorId": "player",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "otherActorId": "$self$",
+                                                            "direction": "up",
+                                                            "angle": 0,
+                                                            "angleVariable": "0",
+                                                            "directionType": "direction",
+                                                            "initialOffset": 0,
+                                                            "speed": 2,
+                                                            "animSpeed": 15,
+                                                            "lifeTime": 1,
+                                                            "collisionGroup": "3",
+                                                            "collisionMask": [
+                                                                "1"
+                                                            ],
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "a5b061e1-cabf-41c9-8627-a7b3cdda2cc9"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_DIRECTION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "direction": "left",
+                                                            "__collapseElse": false,
+                                                            "__collapse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_LAUNCH_PROJECTILE",
+                                                                    "args": {
+                                                                        "spriteSheetId": "78e4e887-6baa-4ffb-a210-b3f73ed974a9",
+                                                                        "spriteStateId": "",
+                                                                        "actorId": "player",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "otherActorId": "$self$",
+                                                                        "direction": "left",
+                                                                        "angle": 0,
+                                                                        "angleVariable": "0",
+                                                                        "directionType": "direction",
+                                                                        "initialOffset": 0,
+                                                                        "speed": 2,
+                                                                        "animSpeed": 15,
+                                                                        "lifeTime": 1,
+                                                                        "collisionGroup": "3",
+                                                                        "collisionMask": [
+                                                                            "1"
+                                                                        ],
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "b870c6c6-bd61-4136-8a5d-e392db98ba66"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_IF_ACTOR_DIRECTION",
+                                                                    "args": {
+                                                                        "actorId": "$self$",
+                                                                        "direction": "down",
+                                                                        "__collapseElse": true,
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_LAUNCH_PROJECTILE",
+                                                                                "args": {
+                                                                                    "spriteSheetId": "78e4e887-6baa-4ffb-a210-b3f73ed974a9",
+                                                                                    "spriteStateId": "",
+                                                                                    "actorId": "player",
+                                                                                    "x": 0,
+                                                                                    "y": 0,
+                                                                                    "otherActorId": "$self$",
+                                                                                    "direction": "down",
+                                                                                    "angle": 0,
+                                                                                    "angleVariable": "0",
+                                                                                    "directionType": "direction",
+                                                                                    "initialOffset": 0,
+                                                                                    "speed": 2,
+                                                                                    "animSpeed": 15,
+                                                                                    "lifeTime": 1,
+                                                                                    "collisionGroup": "3",
+                                                                                    "collisionMask": [
+                                                                                        "1"
+                                                                                    ],
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "id": "57a298ef-544b-4765-9fc5-5bf583c49339"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "ffbeed9b-aa67-41ae-b0aa-6fd1f2abf5e0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "74a98352-cfa6-4c92-b780-436207a7acdd"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "f38847ed-d1e0-4c82-a513-a0fcf88ef99a"
+                                        }
+                                    ]
+                                },
+                                "id": "8e284133-c37a-42db-a5cd-eef1360e3982"
+                            }
+                        ]
+                    },
+                    "id": "c50de0cf-92ee-4ec7-8fa2-96ec3cab24c0"
+                }
+            ]
+        }
+    ],
     "music": [
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -7593,8 +8077,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1028,
-        "worldScrollY": 252,
+        "worldScrollX": 1520.833251953125,
+        "worldScrollY": 280,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": true,
@@ -7623,9 +8107,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            203,
-            121,
-            435
+            209,
+            125,
+            450
         ],
         "showNavigator": true,
         "defaultFontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
