@@ -6,7 +6,7 @@
     "scenes": [
         {
             "name": "BEDROOM",
-            "backgroundId": "19cc8e44-f374-448d-b5fc-da06474222e9",
+            "backgroundId": "414dc662-da74-49d3-b040-b09d0865b727",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -5387,7 +5387,8 @@
             "height": 24,
             "imageWidth": 160,
             "imageHeight": 192,
-            "filename": "CAVERN_1.png"
+            "filename": "CAVERN_1.png",
+            "tileColors": []
         },
         {
             "id": "1de8ba17-555e-4de9-b5a2-38fc1bb3845e",
@@ -5396,7 +5397,8 @@
             "height": 18,
             "imageWidth": 192,
             "imageHeight": 144,
-            "filename": "CAVERN_2.png"
+            "filename": "CAVERN_2.png",
+            "tileColors": []
         },
         {
             "id": "1f2a5591-bb06-444d-8151-8d2559a78d2e",
@@ -5405,7 +5407,8 @@
             "height": 24,
             "imageWidth": 256,
             "imageHeight": 192,
-            "filename": "CITY_1.png"
+            "filename": "CITY_1.png",
+            "tileColors": []
         },
         {
             "id": "2c5ba3b5-36e6-45d8-b58c-c8a13ee28b16",
@@ -5414,7 +5417,8 @@
             "height": 24,
             "imageWidth": 256,
             "imageHeight": 192,
-            "filename": "CITY_2.png"
+            "filename": "CITY_2.png",
+            "tileColors": []
         },
         {
             "id": "ef93916e-a474-49a7-ae9e-cc94bc99cd2c",
@@ -5433,7 +5437,8 @@
             "height": 24,
             "imageWidth": 256,
             "imageHeight": 192,
-            "filename": "OUTSIDE_1.png"
+            "filename": "OUTSIDE_1.png",
+            "tileColors": []
         },
         {
             "id": "4206a30a-08f0-4f41-9c92-b066e86aaba5",
@@ -5442,7 +5447,8 @@
             "height": 24,
             "imageWidth": 256,
             "imageHeight": 192,
-            "filename": "OUTSIDE_2.png"
+            "filename": "OUTSIDE_2.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -7587,8 +7593,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 534,
-        "worldScrollY": 654,
+        "worldScrollX": 1028,
+        "worldScrollY": 252,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": true,

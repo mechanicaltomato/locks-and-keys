@@ -29,7 +29,7 @@
                 0,
                 0,
                 0,
-                15,
+                0,
                 0,
                 0,
                 0,
@@ -950,7 +950,7 @@
                             "args": {
                                 "sceneId": "9c12aa01-f99f-432a-9b69-cf8ad0d3ab0e",
                                 "x": 24,
-                                "y": 16,
+                                "y": 17,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -1763,7 +1763,7 @@
                             "args": {
                                 "sceneId": "add99798-5a2f-49f9-af9e-f90385093e83",
                                 "x": 12,
-                                "y": 18,
+                                "y": 17,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -1784,7 +1784,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "f31eaff2-e488-4d95-aec1-c4987e3e09da",
-                                "x": 0,
+                                "x": 2,
                                 "y": 19,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -1806,7 +1806,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "c773be24-7468-46c0-b6f3-e5ee1623eedb",
-                                "x": 29,
+                                "x": 28,
                                 "y": 2,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -2618,7 +2618,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "9c12aa01-f99f-432a-9b69-cf8ad0d3ab0e",
-                                "x": 29,
+                                "x": 28,
                                 "y": 19,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -2641,7 +2641,7 @@
                             "args": {
                                 "sceneId": "ff9e9449-ae47-4b44-8a01-5c07c38c8ce7",
                                 "x": 2,
-                                "y": 16,
+                                "y": 15,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -3165,7 +3165,7 @@
                             "args": {
                                 "sceneId": "ff9e9449-ae47-4b44-8a01-5c07c38c8ce7",
                                 "x": 20,
-                                "y": 1,
+                                "y": 2,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -3663,7 +3663,7 @@
                             "args": {
                                 "sceneId": "a9ce17ac-faef-4bf3-90bb-c3f12637b257",
                                 "x": 4,
-                                "y": 22,
+                                "y": 21,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -4459,7 +4459,7 @@
             "autoFadeSpeed": 1,
             "id": "2abc54b6-3931-4efb-af36-9daae18ea5fe",
             "x": 350,
-            "y": 465.5,
+            "y": 466.5,
             "actors": [],
             "triggers": [
                 {
@@ -4474,8 +4474,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "c773be24-7468-46c0-b6f3-e5ee1623eedb",
-                                "x": 1,
-                                "y": 2,
+                                "x": 2,
+                                "y": 3,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -4496,7 +4496,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "c773be24-7468-46c0-b6f3-e5ee1623eedb",
-                                "x": 1,
+                                "x": 3,
                                 "y": 20,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -5308,7 +5308,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "9c12aa01-f99f-432a-9b69-cf8ad0d3ab0e",
-                                "x": 1,
+                                "x": 2,
                                 "y": 8,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -5330,7 +5330,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "2abc54b6-3931-4efb-af36-9daae18ea5fe",
-                                "x": 29,
+                                "x": 28,
                                 "y": 1,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -5352,7 +5352,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "2abc54b6-3931-4efb-af36-9daae18ea5fe",
-                                "x": 29,
+                                "x": 28,
                                 "y": 20,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -7587,8 +7587,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 823,
-        "worldScrollY": 741,
+        "worldScrollX": 534,
+        "worldScrollY": 654,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": true,
