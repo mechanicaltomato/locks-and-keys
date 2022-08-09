@@ -482,8 +482,8 @@
                 15,
                 15,
                 15,
-                0,
-                0,
+                15,
+                15,
                 15,
                 15,
                 15,
@@ -944,8 +944,7 @@
                     "y": 19,
                     "width": 2,
                     "height": 1,
-                    "script": [],
-                    "leaveScript": [
+                    "script": [
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
@@ -955,9 +954,10 @@
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
-                            "id": "691c3846-7e8c-40b3-b51b-b01cb0b9461e"
+                            "id": "1d6403b4-a434-4a4d-8995-43d6947678ed"
                         }
-                    ]
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [],
@@ -977,10 +977,10 @@
             "collisions": [
                 0,
                 15,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
                 0,
                 15,
                 0,
@@ -1713,8 +1713,8 @@
                 15,
                 0,
                 15,
-                0,
-                0,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -1771,6 +1771,50 @@
                         }
                     ],
                     "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "9a01b4a6-3ed3-4bc1-979e-cc2a3a9c31ba",
+                    "x": 31,
+                    "y": 18,
+                    "width": 1,
+                    "height": 4,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "f31eaff2-e488-4d95-aec1-c4987e3e09da",
+                                "x": 0,
+                                "y": 19,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "0fc1eb08-4b74-49e6-b598-dde82228b4e6"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "ebbd3a0b-81df-490c-ad41-8f84604b5edb",
+                    "x": 0,
+                    "y": 8,
+                    "width": 1,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c773be24-7468-46c0-b6f3-e5ee1623eedb",
+                                "x": 29,
+                                "y": 2,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "bbed999d-57b8-483d-8a6b-4878ac735514"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [],
@@ -1791,13 +1835,13 @@
                 0,
                 0,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
                 15,
+                15,
+                15,
                 0,
                 0,
                 15,
@@ -1815,9 +1859,9 @@
                 0,
                 0,
                 15,
-                0,
-                0,
+                15,
                 15,
+                15,
                 0,
                 0,
                 0,
@@ -2546,8 +2590,8 @@
                 0,
                 0,
                 15,
-                0,
-                0,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -2561,7 +2605,52 @@
             "x": 1192.8000000000006,
             "y": 421.9000000000005,
             "actors": [],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "9ce748ef-9972-4c94-8695-bd74f4ab107a",
+                    "x": 0,
+                    "y": 16,
+                    "width": 1,
+                    "height": 6,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "9c12aa01-f99f-432a-9b69-cf8ad0d3ab0e",
+                                "x": 29,
+                                "y": 19,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "77702687-b28c-4690-aea4-ddbaf5c0d975"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "9aa41e5d-6c8b-48dc-a037-ee2e131059ba",
+                    "x": 14,
+                    "y": 1,
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "ff9e9449-ae47-4b44-8a01-5c07c38c8ce7",
+                                "x": 2,
+                                "y": 16,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "9da02765-6d04-4c73-857c-27515a2a38a8"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -2580,8 +2669,8 @@
                 0,
                 0,
                 15,
-                0,
-                0,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -2955,7 +3044,7 @@
                 0,
                 0,
                 0,
-                0,
+                15,
                 0,
                 0,
                 0,
@@ -2975,7 +3064,7 @@
                 0,
                 0,
                 0,
-                0,
+                15,
                 0,
                 0,
                 0,
@@ -3062,7 +3151,30 @@
             "x": 1420.8,
             "y": 30,
             "actors": [],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "cf67972c-fa80-425e-805a-f2626b8b279b",
+                    "x": 4,
+                    "y": 23,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "ff9e9449-ae47-4b44-8a01-5c07c38c8ce7",
+                                "x": 20,
+                                "y": 1,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "ae77ad2d-648f-4603-b058-bc6470b40919"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -3493,8 +3605,8 @@
                 15,
                 15,
                 15,
-                0,
-                0,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -3515,7 +3627,52 @@
             "x": 1288.4,
             "y": 249.79999999999984,
             "actors": [],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "d8c76ea8-b65b-4b41-ac52-a70136db6969",
+                    "x": 2,
+                    "y": 17,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "f31eaff2-e488-4d95-aec1-c4987e3e09da",
+                                "x": 14,
+                                "y": 4,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "d22362a9-7c02-4c13-865b-442bba27ba31"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "584ed6e7-2ef7-4f58-858e-0a61843ffeef",
+                    "x": 20,
+                    "y": 0,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "a9ce17ac-faef-4bf3-90bb-c3f12637b257",
+                                "x": 4,
+                                "y": 22,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "ac971bd7-a1f9-454e-bbf2-09899f018a81"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -3530,12 +3687,7 @@
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
                 0,
                 0,
                 0,
@@ -3567,6 +3719,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -3598,6 +3751,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -3629,6 +3783,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -3660,6 +3815,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -3691,6 +3847,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4074,13 +4231,7 @@
                 0,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
                 0,
                 0,
                 0,
@@ -4112,6 +4263,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4143,6 +4295,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4174,6 +4327,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4205,6 +4359,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4236,6 +4391,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4267,6 +4423,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4304,7 +4461,52 @@
             "x": 350,
             "y": 465.5,
             "actors": [],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "a94c6116-e7d4-41ef-94df-b9ecbb4bda7d",
+                    "x": 31,
+                    "y": 1,
+                    "width": 1,
+                    "height": 5,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c773be24-7468-46c0-b6f3-e5ee1623eedb",
+                                "x": 1,
+                                "y": 2,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "04e84b23-748b-4915-b00b-54679c7253d0"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "b4082e8e-d94c-419b-a8aa-952d95dc3846",
+                    "x": 31,
+                    "y": 18,
+                    "width": 1,
+                    "height": 5,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c773be24-7468-46c0-b6f3-e5ee1623eedb",
+                                "x": 1,
+                                "y": 20,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "ee1dbce3-fa97-431d-9f31-8123de5798af"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -4830,6 +5032,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4861,6 +5064,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4892,6 +5096,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4923,6 +5128,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4954,6 +5160,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -4985,6 +5192,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -5016,6 +5224,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -5047,14 +5256,7 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
                 15,
                 15,
                 15,
@@ -5093,7 +5295,74 @@
             "x": 621.5,
             "y": 463.5,
             "actors": [],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "c9f6f89b-7753-4a1e-ac2e-8aacd3b54206",
+                    "x": 31,
+                    "y": 2,
+                    "width": 1,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "9c12aa01-f99f-432a-9b69-cf8ad0d3ab0e",
+                                "x": 1,
+                                "y": 8,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "5e76b27e-c05c-4e9d-ae79-f513fd41a132"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "391aea83-f8b7-4623-97c0-be838ca384ac",
+                    "x": 0,
+                    "y": 2,
+                    "width": 1,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "2abc54b6-3931-4efb-af36-9daae18ea5fe",
+                                "x": 29,
+                                "y": 1,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "eb76075b-4089-4d22-a01b-c11aecad19d5"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "24550bfe-77f9-48ab-9c6a-cd6b99a150d4",
+                    "x": 0,
+                    "y": 18,
+                    "width": 1,
+                    "height": 5,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "2abc54b6-3931-4efb-af36-9daae18ea5fe",
+                                "x": 29,
+                                "y": 20,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "dec5f189-0a83-4c98-b769-afb8c6340a76"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -7318,8 +7587,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1201,
-        "worldScrollY": 586,
+        "worldScrollX": 823,
+        "worldScrollY": 741,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": true,
